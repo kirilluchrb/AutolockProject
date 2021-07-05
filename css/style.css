@@ -33,6 +33,9 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+.menu__list li:hover {
+    font-weight: 700;
+}
 .arrow-right {
     width: 6px;
     height: 10px;
@@ -75,6 +78,7 @@ a {
 .buttonArrow {
     margin-left: 6px;
 }
+
 .arrow {
     position: absolute;
     top: 410px;
@@ -141,6 +145,11 @@ a {
     color: #F0F0F0;
     background: rgba(131, 129, 129, 0.57);
 }
+.services__item:hover {
+    height: 282px;
+    transition: 0.4s;
+    background: #000;
+}
 .item {
     display: block;
     font-weight: 500;
@@ -149,6 +158,9 @@ a {
     line-height: 17px;
     letter-spacing: 0.03em;
     color: #E0DEDE;
+}
+.item:hover {
+    text-decoration: underline;
 }
 /*--------------About--------------*/
 .info{
@@ -193,6 +205,11 @@ a {
     padding: 15px 44px;
     background: #000;
     color: #fff;
+}
+.news__button:hover {
+    background: #fff;
+    color: #000;
+    transition: 0.3s;
 }
 .news__button span {
     font-size: 12px;
@@ -242,12 +259,20 @@ a {
 .offer__item {
     margin-bottom: 30px;
 }
+.offer__item input:focus {
+    border-color: #FF1616;
+}
 .form__button {
     padding: 15px 44px;
     background: #FF1616;
     color: #fff;
     width: 235px;
     margin: 0px 211px 41px 212px;
+}
+.form__button:hover {
+    background: #fff;
+    color:#FF1616;
+    transition: 0.3s;
 }
 .form__button span {
     font-size: 14px;
@@ -312,7 +337,11 @@ a {
     letter-spacing: 0.04em;
     width: 175px;
 }
-
+.acticle__button:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.4s;
+}
 .acticle__button span {
     display: block;
     padding: 12px 44px 11px 45px;
@@ -356,6 +385,9 @@ a {
     font-size: 14px;
     line-height: 17px;
     color: #E0DEDE;
+}
+.footer-nav a:hover {
+    color: #fff;
 }
 .footer-nav-social a {
     margin-right: 15px;
